@@ -1,2 +1,1 @@
-# Bookstore
-GHida's books store
+Book store
