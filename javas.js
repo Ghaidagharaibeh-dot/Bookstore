@@ -1,4 +1,5 @@
 alert('Wlecom to our store')
+prompt ('write your name')
 
 alert('write the book type you need')
 var book = prompt('write booka for Action and Adventurbooks,bookb for Classics and anything for Historical ')
