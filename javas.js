@@ -1,5 +1,11 @@
+
+function username(){
 alert('Wlecom to our store')
-prompt ('write your name')
+var username = prompt ('write your name')
+return username;
+}
+username();
+
 
 var book = prompt('write 1-booka for Action and Adventurbooks 2-write bookb for Classics 3-wite bookc for Historical ')
 /* when user book type he/she want it will appear like link*/
@@ -9,16 +15,14 @@ if (book === 'booka') {
 
   else if ( book==='bookc')
   {document.write('<a href="www.google">Historical Fiction</a>')
-}
+} 
 
-var book = prompt('write your fav book')
-function books(){
+function bookfav(){
+  var book = prompt('write your fav book')
 while(book!== 'booka' && book !=='bookb' && book !== 'bookc'){
   book = prompt('write booka or bookb or bookc !')}
 }
-books();
-
-
+   bookfav();
 
 
   function booknum(){
@@ -42,6 +46,13 @@ var count = prompt('how mony book you want see')
   }
   booknum();
 
+
+var B = prompt('solve the equation to win book from our store the equation is 2*y+x=77 x:donate how mony types of book we have')
+for (var y=0 ; y <=3 ; y++)
+{if(B == 105){ alert ('win') 
+break; }
+else{  B = prompt('Try again!')}
+}
 
  
 
