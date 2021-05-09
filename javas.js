@@ -6,10 +6,7 @@ return username;
 }
 username();
 
-<<<<<<< HEAD
 
-=======
->>>>>>> dc1833d572a12b0cab7680ada52e9ebea3e9f2bd
 var book = prompt('write 1-booka for Action and Adventurbooks 2-write bookb for Classics 3-wite bookc for Historical ')
 /* when user book type he/she want it will appear like link*/
 if (book === 'booka') {
@@ -18,7 +15,7 @@ if (book === 'booka') {
 
   else if ( book==='bookc')
   {document.write('<a href="www.google">Historical Fiction</a>')
-<<<<<<< HEAD
+
 } 
 
 function bookfav(){
@@ -51,20 +48,12 @@ var count = prompt('how mony book you want see')
   booknum();
 
 
-var B = prompt('solve the equation to win book from our store the equation is 2*y+x=77 x:donate how mony types of book we have')
-for (var y=0 ; y <=3 ; y++)
-{if(B == 105){ alert ('win') 
-break; }
-else{  B = prompt('Try again!')}
-}
-
-=======
-}
-
+ function bookafav(){
 var book = prompt('write your fav book')
 
 while(book!== 'booka' && book !=='bookb' && book !== 'bookc'){
-  book = prompt('write booka or bookb or bookc !')}
+  book = prompt('write booka or bookb or bookc !')}}
+  bookfav();
 
 
 
@@ -87,7 +76,13 @@ var count = prompt('how mony book you want see')
  
  document.write(pic) 
 
+var B = prompt('solve the equation to win book from our store the equation is 2*y+x=77 x:donate how mony types of book we have')
+for (var y=0 ; y <=3 ; y++)
+{if(B == 105){ alert ('congratulation! you win ') 
+break; }
+else{  B = prompt('Try again!')}
+}
 
->>>>>>> dc1833d572a12b0cab7680ada52e9ebea3e9f2bd
+
  
 
